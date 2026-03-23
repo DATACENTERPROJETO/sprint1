@@ -1,4 +1,4 @@
-Regras de conduta do Projeto de PI - EasySerer
+Regras de conduta do Projeto de PI - EasyServer
 
 
 1. A cada semana um integrante irá fazer a ATA.
