@@ -21,7 +21,7 @@ void loop() {
     //Serial.print(55);
     //Serial.print(" ");
     //Serial.print("Umidade(%):");
-    //Serial.print(umidade);
+    Serial.print(umidade);
     //Serial.print(" ");
     //Serial.print("UmidadeMinima:");
     //Serial.print(40);
