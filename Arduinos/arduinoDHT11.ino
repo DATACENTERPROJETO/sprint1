@@ -17,25 +17,14 @@ void loop() {
   if (isnan(temperatura) || isnan(umidade)) {
     Serial.println("Erro ao ler os dados do sensor");
   } else {
-    //Serial.print("UmidadeMaxima:");
-    //Serial.print(55);
-    //Serial.print(" ");
-    //Serial.print("Umidade(%):");
+    
     Serial.print(umidade);
-    //Serial.print(" ");
-    //Serial.print("UmidadeMinima:");
-    //Serial.print(40);
-    //Serial.print(" ");
-    //Serial.print("TemperaturaMaxima:");
-    //Serial.print(27);
+    
     Serial.print(";");
-    //Serial.print("Temperatura(C°):");
+    
     Serial.println(temperatura);
-    //Serial.print(" ");
-    //Serial.print("TemperaturaMinima:");
-    //Serial.print(18);
-    //Serial.print(" ");
+    
   }
 
-    delay(1000);
+    delay(5000);
 }
