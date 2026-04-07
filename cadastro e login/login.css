@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C005D;
+    font-family: Bold;
+}
+
+
+#img_logo{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#div_form {
+    border: 2px solid black;
+    width: 700px;
+    padding: 50px 30px;
+    background-color:  #ddeddd;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.titulo_campo {
+    width: 220px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 6px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+input {
+    width: 430px;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: 20px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    width: 200px;
+    height: 52px;
+    border: none;
+    background-color: #0C005D;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+
+#msg_email,
+#msg_senha {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.certo {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+}
+#msg {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 25px;
+}
+
+#btn_login {
+    color: #0C005D;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.titu{
+    Color:  #0C005D;
+    font-size: 50px;
+    font-weight: bold;
+
+}
