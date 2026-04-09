@@ -1,128 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 linear;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: var(--bg);
+    border-bottom: var(--border);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navBar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: beige;
+}
+
+.navBar a:hover {
+    color: #A6FFF5;
+    border-bottom: 0.1rem solid var(--ciano);
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+:root {
+    --main-color: #fff;
+    --black: #13131a;
+    --bg: #0C005D;
+    --btn:#0C005D;
+    --ciano: #A6FFF5;
+    --border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    font-size: 10px;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0C005D;
-    font-family: Bold;
+    padding-top: 120px;
+    background-image: url('fundo.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #div_form {
-    border: 2px solid black;
-    width: 700px;
-    padding: 30px 40px;
-    background-color:  #ddeddd;
+    width: 600px;
+    padding: 40px;
+    padding-left: 10px;
+    background-color: #d9e3d6;
     border-radius: 20px;
+    border: 1px solid black;
     text-align: center;
 }
 
-#formu {
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
+.titu{
+    Color:  #0C005D;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 30px;
 }
 
 .linha {
     display: flex;
     align-items: center;
-    gap: 25px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
-
 
 .titulo_campo {
-    width: 220px;
-    font-size: 32px;
+    width: 150px;
+    font-size: 24px;
     font-weight: bold;
     text-align: right;
-    padding-top: 6px;
-}
-.campo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+    margin-right: 15px;
 }
 
 input {
-    width: 430px;
-    height: 38px;
+    width: 400px;   /* aumenta  a largura */
+    height: 20px;   /* altura maior */
     border: 2px solid black;
-    border-radius: 0;
-    font-size: 20px;
-    padding: 4px 10px;
-    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px;
 }
 
 button {
     margin-top: 25px;
-    margin-left: 250px;
     width: 200px;
-    height: 55px;
-    border: none;
-    background-color: #0C005D;
+    height: 50px;
+    background-color:  #0C005D;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 10px;
-
+    
 }
-#img_logo{
-     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#btn_login {
+    color: #0C005D;
+    font-weight: bold;
 }
 
 .certo {
     color: green;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 14px;
 }
 
 .erro {
     color: red;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 14px;
 }
 
 .media {
     color: orange;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 8px;
-}
-
-#msg {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: green;
-    margin-top: 30px;
-}
-
-#btn_voltar {
-    display: none;
-    margin-top: 20px;
-    padding: 12px 20px;
-    background-color: #0C005D;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-#btn_login{
-    margin-top: 20px;
-
-    color:  #0C005D;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-.cad{
-    Color:  #0C005D;
-    font-size: 50px;
-    font-weight: bold;
-
+    font-size: 14px;
 }
